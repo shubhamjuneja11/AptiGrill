@@ -2,5 +2,5 @@
     <string name="app_name">AptiGrill</string>
     <string name="facebook_app_id">543356529334523</string>
     <string name="fb_login_protocol_scheme">fb543356529334523</string>
-
+    <string name="google_client_id">477547675595-b50pi724ld40qfto6dd9ovkko02jmihf.apps.googleusercontent.com</string>
 </resources>
