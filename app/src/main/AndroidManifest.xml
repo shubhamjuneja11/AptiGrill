@@ -18,13 +18,15 @@
         <activity android:name=".view.LoginActivity"></activity>
         <activity android:name=".view.MainActivity" />
         <activity android:name=".view.Main2Activity">
+
+        </activity>
+        <activity android:name=".view.ProblemTypeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".view.ProblemTypeActivity"></activity>
     </application>
 
 </manifest>

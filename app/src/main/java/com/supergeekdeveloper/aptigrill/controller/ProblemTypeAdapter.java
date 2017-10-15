@@ -1,5 +1,6 @@
 package com.supergeekdeveloper.aptigrill.controller;
 
+import android.content.Context;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -17,7 +18,11 @@ import java.util.ArrayList;
 
 public class ProblemTypeAdapter extends RecyclerView.Adapter<ProblemTypeAdapter.MyViewHolder> {
     ArrayList<ProblemTypeModel> al;
-
+    Context context;
+    public ProblemTypeAdapter(Context context,ArrayList<ProblemTypeModel> al){
+        this.context=context;
+        this.al=al;
+    }
     @Override
     public MyViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View view= LayoutInflater.from(parent.getContext()).inflate(R.layout.problemtypelayout,parent,false);
